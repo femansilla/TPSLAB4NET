@@ -2,26 +2,40 @@
 
     <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron" style="height:86px">
+    <div class="jumbotron">
         <h1>Trabajo práctico N° 1</h1>
         <p class="lead">Mansilla Francisco</p>
     </div>
 
         <div class="form-horizontal">
 
-                <div class="col-md-4">
+                <div class="col-md">
                     <p>
-                        <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                        <a class="btn btn-default" href="Ej1.aspx">Ejercicio 1</a>
                     </p>
                 </div>
-                <div class="col-md-4">
+
+                <div class="col-md">
                     <p>
-                        <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                        <a class="btn btn-default" href="Ej2.aspx">Ejercicio 2</a>
                     </p>
                 </div>
-                <div class="col-md-4">
+
+                <div class="col-md">
                     <p>
-                        <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                        <a class="btn btn-default" href="Ej3.aspx">Ejercicio 3</a>
+                    </p>
+                </div>
+
+                <div class="col-md">
+                    <p>
+                        <a class="btn btn-default" href="Ej4.aspx">Ejercicio 4</a>
+                    </p>
+                </div>
+
+                <div class="col-md">
+                    <p>
+                        <a class="btn btn-default" href="Ej5.aspx">Ejercicio 5</a>
                     </p>
                 </div>
 
