@@ -11,7 +11,7 @@ namespace Mansilla_Francisco_TP_1
 {
 
 
-    public partial class Ej1
+    public partial class Ej2
     {
     }
 }

@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Mansilla_Francisco_TP_1
+namespace tp_1_MansillaFrancisco.Ej1
 {
-    public partial class About : Page
+    public partial class Ej1Error : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

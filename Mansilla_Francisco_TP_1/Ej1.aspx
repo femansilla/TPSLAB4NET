@@ -1,15 +1,17 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Ej1.aspx.cs" Inherits="Mansilla_Francisco_TP_1.Ej1" %>
+﻿<%@ Page Title="EJ1" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Ej1.aspx.cs" Inherits="Mansilla_Francisco_TP_1.Ej1" Debug="true" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    
+    <div class="form-horizontal" style="margin-top:5%">
 
-<!DOCTYPE html>
+        <label for="userText">Usuario:</label>
+        <input id="userText" class="form-control" type="text"/>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
+        <label for="passwordText">Clave:</label>
+        <input id="passwordText" class="form-control" type="password"/>
+        
+
+        <div style="margin-top:2%">
+            <button type="submit" id="btnSubmit" class="btn btn-info">Validar</button>
         </div>
-    </form>
-</body>
-</html>
+    </div>
+</asp:Content>
