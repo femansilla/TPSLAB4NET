@@ -16,6 +16,12 @@ namespace tp_1_MansillaFrancisco.Ej3
 
         protected void ConfirmarDatos_Click(object sender, EventArgs e)
         {
+            string sel = "";
+            foreach (ListItem i in chkListTemas.Items)
+                sel += i.Selected ? i.Text + "\n\r " : "";
+            sel = sel.Substring(0, (sel.Length - 2));
+            selectedTemas.Text = sel;
+            Server.Transfer("Ej3Success.aspx");
         }
     }
 }

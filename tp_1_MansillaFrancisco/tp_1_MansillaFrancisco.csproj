@@ -73,6 +73,8 @@
     <Content Include="Ej2\Ej2Main.aspx" />
     <Content Include="Ej3\Ej3Main.aspx" />
     <Content Include="Ej3\Ej3Success.aspx" />
+    <Content Include="Ej4\Ej4Main.aspx" />
+    <Content Include="Ej5\Ej5Main.aspx" />
     <Content Include="Main.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -119,6 +121,20 @@
     <Compile Include="Ej3\Ej3Success.aspx.designer.cs">
       <DependentUpon>Ej3Success.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Ej4\Ej4Main.aspx.cs">
+      <DependentUpon>Ej4Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ej4\Ej4Main.aspx.designer.cs">
+      <DependentUpon>Ej4Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ej5\Ej5Main.aspx.cs">
+      <DependentUpon>Ej5Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ej5\Ej5Main.aspx.designer.cs">
+      <DependentUpon>Ej5Main.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -137,10 +153,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Ej4\" />
-    <Folder Include="Ej5\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
