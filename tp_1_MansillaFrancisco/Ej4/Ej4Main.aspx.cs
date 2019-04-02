@@ -29,7 +29,6 @@ namespace tp_1_MansillaFrancisco.Ej4
             ddlMedicos.Items.AddRange(ClinicMedics.ToArray());
             if (!IsPostBack)
             {
-                //ddlMedicos.DataBind();
             }
         }
 
