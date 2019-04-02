@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tp_1_MansillaFrancisco", "tp_1_MansillaFrancisco\tp_1_MansillaFrancisco.csproj", "{7582AFC9-80A5-4FF9-A58C-EAA071EACC94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tp_2_MansillaFrancisco", "..\WebApplication1\WebApplication1\tp_2_MansillaFrancisco.csproj", "{4CF0D3DB-6621-41D4-BFC5-2598157A6D92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tp_2_MansillaFrancisco", "WebApplication1_SLN\tp_2_MansillaFrancisco.csproj", "{4CF0D3DB-6621-41D4-BFC5-2598157A6D92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
